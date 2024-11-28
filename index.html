@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Wether API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="weatherForm">
+            <div class="f1">
+                <input type="text" name="city" placeholder="Enter City Name" id="cityName">
+                <button type="submit">Search</button>
+            </div>
+        </form>
+        <div class="f2">
+            <h3 class="ccity">Loading City</h3>
+            <img src="https://cdn-icons-png.flaticon.com/512/6122/6122561.png">
+            <h3 class="temp">Loading Tempreture</h3>
+            <h3 class="desc">Loading discription</h3>
+        </div>
+        <div class="f3">
+            <div class="humidity">
+                <i class="fa-solid fa-droplet"></i>
+                <h3 class="humidity">humidity</h3>
+                <h3 class="hText"></h3>
+            </div>
+            <div class="speed">
+                <i class="fa-solid fa-wind"></i>
+                <h3 class="speed">Loading Speed</h3>
+                <h3 class="sText"></h3>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
